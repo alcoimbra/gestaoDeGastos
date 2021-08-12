@@ -19,6 +19,7 @@ public class GastosDTO {
 	
 	@Id
 	private Long id;
+	
 	private String descricao;
 	private Double valor;
 	private Integer codigoUsuario;
