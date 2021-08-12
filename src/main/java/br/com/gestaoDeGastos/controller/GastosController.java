@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.gestaoDeGastos.domain.Response;
 import br.com.gestaoDeGastos.model.GastosDTO;
 import br.com.gestaoDeGastos.service.serviceImpl.GastosServiceImpl;
+import io.swagger.annotations.Api;
 
 
 @RestController
+@Api(value = "Gastos")
 public class GastosController {
 	
 	@Autowired
